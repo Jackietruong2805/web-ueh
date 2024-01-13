@@ -10,22 +10,22 @@
 }
 .header-1 {
     background-color: blue;
-    height: 80px;
+    height: 30px;
 }
 .header-2 {
     background-color: red;
-    height: 30px;
+    height: 80px;
 }
 .sidebar {
     display: flex;
     height: 400px;
 }
 .sidebar-left {
-    flex-grow: 3;
+    flex-grow: 7;
     background-color: orange;
 }
 .sidebar-right {
-    flex-grow: 7;
+    flex-grow: 3;
     background-color: yellowgreen;
 }
 .footer{
