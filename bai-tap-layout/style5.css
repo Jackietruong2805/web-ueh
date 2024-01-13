@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+.header {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 280px;
+    font-weight: 600;
+}
+.header-left {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 0 10px;
+    color: #ccc;
+}
+.header-left > *{
+    cursor: pointer;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 0 15px;
+}
+.header-right input {
+    padding: 5px 6px;
+    background-color: gray;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.header-right input::placeholder {
+    color: #ccc;
+}
+.go-button {
+    width: 8px;
+    height: 6px;
+    padding: 7px 15px;
+    border-radius: 20px;
+    background-color: rgb(236, 101, 52);
+}
+.seperate-line {
+    display: inline-block;
+    width: 2px;
+    height: 15px;
+    margin: 0 15px;
+    background-color: white;
+}
+
+/* Banner */
+.banner {
+    height: 100px;
+    display: flex;
+    padding: 10px 0;
+    gap: 0 10px;
+}
+.banner-left {
+    background-image: url("https://images.unsplash.com/photo-1555274175-75f4056dfd05?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+}
+.banner-right {
+    /* https://cdn.lawnet.vn/uploads/tintuc/2022/11/18/quang-cao.jpg */
+    background-image: url("https://cdn.lawnet.vn/uploads/tintuc/2022/11/18/quang-cao.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+}
+
+

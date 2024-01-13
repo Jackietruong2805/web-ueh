@@ -1,0 +1,1 @@
+document.write("Hom nay troi dep qua")
